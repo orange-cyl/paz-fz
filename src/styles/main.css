@@ -1,0 +1,129 @@
+/* 设置表格tr高度 */
+.el-table td, .el-table th{
+  padding:4px 0 !important;
+}
+/* 设置左侧导航栏的高度 */
+.el-menu-item, .el-submenu__title{
+  height:42px;
+  line-height: 42px;
+}
+/*模态框样式*/
+.el-dialog__header{
+  background-color: #66b1ff;
+  color: #FFF;
+  padding-top:15px !important;
+  line-height: 22px;
+}
+.el-dialog__title{
+  color:#fff;
+}
+.el-dialog__headerbtn .el-dialog__close {
+  color: #f2f2f2;
+  font-size: 18px;
+  margin-top: 9px;
+}
+.el-dialog__headerbtn{
+  top:8px;
+}
+.el-dialog .el-dialog__body .el-select .el-input .el-select__caret{
+  color:#aaaaaa;
+}
+.el-dialog .dialogBottom{
+  text-align:right;
+}
+.el-dialog .dialogBottom .el-button{
+  width:6em;        
+}
+.el-dialog .dialogBottom .el-button:last-child{
+  background:#66b1ff;
+  color:white;
+  margin-top:1em;
+}
+/* 设置图标父亲iconDiv */
+.iconDiv{
+  display: inline-block;
+  cursor: pointer;
+}
+/* 设置标题的样式 */
+.totalTitle{
+  font-size:14px;
+  line-height: 30px;
+  border-bottom:1px solid rgb(232, 232, 232);
+}
+/* 设置搜索input框的宽高 */
+.searchOption .el-input--mini .el-input__inner{
+  height: 29px;
+  line-height: 29px;
+  width: 100px;
+}
+/* 设置表格的头部背景 */
+.el-table__header thead  tr th{
+  background:rgb(245, 245, 245);
+}
+/* 搜索系列的位置 */
+.searchOption{
+  float: right;
+}
+.searchOption>div{
+  float:left;
+  margin-left:10px;
+}
+/* 设置搜索时间的宽度 */
+.el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--timerange.el-input, .el-date-editor--timerange.el-input__inner{
+  width: 250px;
+}
+/* 设置超链接的样式 */
+.linkSpan{
+  color: rgb(64, 158, 255);
+  cursor: pointer;
+}
+.linkSpan:hover{
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+}
+/* 详情页返回按钮 */
+.backDiv{
+  color: rgb(64, 158, 255);
+  float: right;
+  cursor: pointer;
+  
+}
+/* 标签页的高度 */
+.el-tabs__item{
+  height: 30px;
+  line-height: 30px;
+}
+/* 设置表格的高度 */
+.el-table td, .el-table th{
+  padding:8px 0;
+}
+/* 设置tabs的margin */
+.el-tabs__header{
+  margin:0;
+}
+/* 设置占位符的字体颜色 */
+.el-date-editor .el-range-input::placeholder{
+  color:#444;
+}
+.el-input__inner::placeholder{
+  color:#444;
+}
+.el-input__inner{
+  border:1px solid #ccc;
+}
+/* 金钱弄成红色字体 */
+.redSpan{
+  color: red;
+}
+/* 详情页面布局 */
+.marginSet{
+  margin:10px 0;
+  
+}
+.marginSet:nth-child(odd){
+  text-align: right;
+}
+.marginSet:nth-child(even){
+  text-align: left;
+}
+
